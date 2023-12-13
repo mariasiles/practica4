@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <stdlib.h>
 // Funció per moure i canviar el nom dels arxius
 int my_mv(char arxiu_origen[], char arxiu_desti[]){
 	// Obrir l'arxiu d'origen en mode lectura
